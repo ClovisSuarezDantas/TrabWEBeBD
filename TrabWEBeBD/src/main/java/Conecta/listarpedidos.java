@@ -14,8 +14,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/listarpedidos")
-public class listarpedidos extends HttpServlet {
+@WebServlet("/listarPedidos")
+public class listarPedidos extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	    List<pedido> pedidos = new ArrayList<>();
 

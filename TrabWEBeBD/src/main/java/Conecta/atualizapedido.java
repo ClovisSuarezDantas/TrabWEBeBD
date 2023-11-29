@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/atualizapedido")
-public class atualizapedido extends HttpServlet{
+@WebServlet("/atualizaPedido")
+public class atualizaPedido extends HttpServlet{
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String pedidoId = request.getParameter("pedidoId");
         String entrada = request.getParameter("entrada");

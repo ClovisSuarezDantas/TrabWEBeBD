@@ -58,7 +58,7 @@ header {
         <input type="button" onclick="redirecionar('indexCardapio.jsp')"  value="Fazer pedido"   class="b">
         <input type="button" onclick="redirecionar('indexAlterarID.jsp')"   value="Alterar pedido" class="b">
         <input type="button" onclick="redirecionar('indexExcluir.jsp')"   value="Excluir pedido" class="b">
-       	<form action="listarpedidos">
+       	<form action="listarPedidos">
        	<input type="submit" value="Listar pedidos" class="b">
        	</form>
     </div>

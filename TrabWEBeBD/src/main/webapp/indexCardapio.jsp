@@ -40,7 +40,7 @@ header {
 </head>
 <body>
 	
-<form action="PedidoServlet" method="post">
+<form action="fazerPedido" method="post">
 	<header>
 		<h1>Faça seu pedido</h1>
 	</header>

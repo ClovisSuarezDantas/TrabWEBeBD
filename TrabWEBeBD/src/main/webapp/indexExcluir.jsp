@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Excluir Pedido</h2>
-    <form action="excluipedido" method="post">
+    <form action="excluiPedido" method="post">
         <p for="pedidoId">ID do Pedido:</p>
         <input type="text" id="pedidoId" name="pedidoId" required>
         <input type="submit" value="Excluir">

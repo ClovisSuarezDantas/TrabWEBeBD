@@ -8,6 +8,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
+
 <body>
     <h2>Lista de Pedidos</h2>
     <table border="1">

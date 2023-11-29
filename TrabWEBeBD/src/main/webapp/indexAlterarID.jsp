@@ -8,8 +8,8 @@
 </head>
 <body>
     <h2>Escolha o Pedido para Atualizar</h2>
-    <form action="escolherpedidoid" method="post">
-        <label for="pedidoId">ID do Pedido:</label>
+    <form action="escolherPedidoID" method="post">
+        <p for="pedidoId">ID do Pedido:</p>
         <input type="text" id="pedidoId" name="pedidoId" required>
         <input type="submit" value="Escolher">
     </form>

@@ -39,7 +39,7 @@ header {
 
 </head>
 <body>
-    <form action="atualizapedido" method="post">
+    <form action="atualizaPedido" method="post">
         <div class="container">
 		<section class="pratos">
 			<h2>Entrada</h2>

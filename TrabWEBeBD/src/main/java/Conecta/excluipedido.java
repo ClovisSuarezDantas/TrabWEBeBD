@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/excluipedido")
-public class excluipedido extends HttpServlet {
+@WebServlet("/excluiPedido")
+public class excluiPedido extends HttpServlet {
 	
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String pedidoId = request.getParameter("pedidoId");
